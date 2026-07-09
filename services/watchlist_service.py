@@ -12,6 +12,10 @@ from services.collection_service import FilmNotFoundError
 class AlreadyInWatchlistError(Exception):
     pass
 
+class FilmNotFoundError(Exception):
+    pass
+
+
 def add_to_watchlist(user_id, film_id):
     """
     Save a film to a user's watchlist.
