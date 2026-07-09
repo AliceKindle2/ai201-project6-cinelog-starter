@@ -27,8 +27,8 @@
 
 ## Comment 6 — Rebase
 **What conflicted:** Nothing conflicted in the system.
-**How I resolved it:** Nothing happened so there was nothing to resolved.
-**How I verified no conflict remains:** Everything works as intended. 
+**How I resolved it:** Nothing happened so there was nothing to resolve.
+**How I verified no conflict remains:**  Everything is working as intended. 
 
 ## PR Description
 <!-- Written at the end — feature overview, design decisions, manual testing steps -->
