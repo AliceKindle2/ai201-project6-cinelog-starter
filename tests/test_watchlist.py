@@ -2,9 +2,10 @@ import pytest
 from app import create_app, db
 from models import User, Film, CollectionEntry
 from services.watchlist_service import (
-    AlreadyInWatchlistError,
     add_to_watchlist,
     get_watchlist,
+    AlreadyInWatchlistError,
+    FilmNotFoundError,
 )
 
 @pytest.fixture
